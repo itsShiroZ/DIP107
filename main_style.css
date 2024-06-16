@@ -4,6 +4,7 @@
     padding:0;
     font-family: sans-serif;
     /*scroll-behavior:smooth;*/
+    overflow-x: hidden;
 }
 
 .landing{
@@ -15,7 +16,7 @@
     min-height: 100vh;
     transition: .1s;
     padding:100px;
-    background-image:url(https://images.indianexpress.com/2023/05/nolan-movie.jpg);
+    background-image:url(landing_image/1.jpg);
     background-size: cover;
     background-position: center;
     animation: slide 20s infinite;
@@ -23,23 +24,23 @@
 
 @keyframes slide{
     20%{
-        background-image : url(https://www.hollywoodreporter.com/wp-content/uploads/2022/12/Cillian-Murphy-Oppenheimer-Still-Publicity-H-2022.jpg?w=1296) ;
+        background-image : url(landing_image/2.jpg) ;
 
     }
     30%{
-        background-image : url(https://images.indianexpress.com/2023/05/nolan-movie.jpg);
+        background-image : url(landing_image/3.jpg);
 
     }
     50%{
-        background-image :url(https://resizing.flixster.com/N_h7iQZOn19u0vdI7HTf6vXt5Kg=/fit-in/1152x864/v2/https://resizing.flixster.com/088JqzsbfupE0AL1n2lcBjs-o-U=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzMwODM3NTU0LWJmZGUtNGFlNC1iMWZjLTExY2RhNTg4MjMyNS5qcGc=);
+        background-image :url(landing_image/4.jpg);
 
     }
     70%{
-        background-image :url(https://resizing.flixster.com/on2JiOvts2jEMnaf8CWzUVOfbmA=/fit-in/1152x864/v2/https://resizing.flixster.com/aWayNJed48yJz1optMN7DvB4o_U=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzkyYzVhMmViLTIyYjQtNGU0Mi05ZmNhLTZjMGIyODA3OGFmMi5qcGc=);
+        background-image :url(landing_image/5.jpg);
 
     }
     86%{
-        background-image :url(https://resizing.flixster.com/OObE8i63z8hO1WCqdxTKc5zwnpU=/fit-in/1152x864/v2/https://resizing.flixster.com/0EHK7MwqXP_nhZp0SJ2cYWG-Clk=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzllMjJhYTU5LTMwMDItNDIyMS1hZjdmLTIxYTc4NGFlZDg1Mi5qcGc=);
+        background-image :url(landing_image/6.jpg);
 
     }
 }
@@ -172,3 +173,11 @@ header .nav li a span:hover{
     color:white;
     transition: 1s;
 }
+
+.navbar {
+    background-color: #232023;
+    max-height: 5%;
+    overflow: hidden;
+}
+
+
